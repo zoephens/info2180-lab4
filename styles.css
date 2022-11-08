@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(avengers.jpg);
+   /*image retrieved from https://wallpapersden.com/the-avengers-art-captain-america-iron-man-thor-black-widow-and-hulk-wallpaper/*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif ;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+/*--------------------------Header--------------------------*/
+header{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-shadow:
+    0 1px 0px #b5a56e,
+    1px 0 0px #7c2b22,
+    1px 2px 1px #b5a56e,
+    2px 1px 1px #7c2b22,
+    2px 3px 2px #b5a56e,
+    3px 2px 2px #7c2b22,
+    3px 4px 2px #b5a56e,
+    4px 3px 3px #7c2b22,
+    4px 5px 3px #b5a56e,
+    5px 4px 2px #7c2b22,
+    5px 6px 2px #b5a56e,
+    6px 5px 2px #7c2b22,
+    6px 7px 1px #b5a56e,
+    7px 6px 1px #7c2b22,
+    7px 8px 0px #b5a56e,
+    8px 7px 0px #7c2b22;
+    /*shadow-box adapted from https://css-tricks.com/almanac/properties/t/text-shadow/*/
+} 
+
+/*--------------------------Search Box--------------------------*/
+main .search{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.415);
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.search{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.319);
+    border-radius: 5px;
+    text-align: center;
+    padding: 35px;
+    width: auto;
+
+}
+
+.search p{
+    font-size: 18px;
+    padding-bottom: 0px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.search form{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.search input[type=text]{
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 100px;
+    display: inline;
+    margin-right: 10px;
+}
+
+button{
+    background-color: #7c2b22;
+    color:#b5a56e;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    cursor: pointer;
+    display: inline;
+}
+
+button:hover{
+    background-color: #b5a56e;
+    color: #7c2b22;
+}
+
+/*--------------------------Results--------------------------*/
+
+.resultBox{
+    padding: 0px 150px;
+
+}
+
+.resultBox h4{
+    font-size: 18px;
+    color: white; 
+}
+
+.resultBox #result{
+    color: white;
+
+}

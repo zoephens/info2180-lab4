@@ -68,7 +68,7 @@ $response = "";
 $query = filter_input(INPUT_GET, "query", FILTER_SANITIZE_STRING);
 
 if (strlen($query) == 0){
-    $response .= "<h2> Choose a hero :D </h2>";
+    $response .= "<h2> Choose a hero: </h2>";
     
     foreach ($superheroes as $superhero){
         $response .= $superhero["alias"]."<br>";
